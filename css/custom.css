@@ -1,0 +1,386 @@
+.vrynologo
+{
+	height: 100px;
+	width: 320px;
+}
+
+.vrynoheading{
+	font-weight: 800;
+	font-style:italic;
+}
+
+.loader{
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    display:none;
+    position: fixed;
+    top:40%;
+    left:50%;		
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Safari */
+@-webkit-keyframes spin{
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin{
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+div#select {
+	/* margin-left: 20%; */
+    /*width: 50%;*/
+    height: 100%;
+    height: fit-content;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    float: left;
+    /* padding: 200px;*/
+	}
+div#selectinput {
+    /* margin-left: 20%; */
+    /*width: 50%;*/
+    height: 100%;
+    height: fit-content;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    float: left;
+    /* padding: 200px;*/
+}
+#gf_form{
+	display:none;
+	}
+.checkbox-rounded [type="checkbox"][class*='filled-in']{
+	border-radius: 50%;
+	margin-bottom: 8px;
+	}
+input#gform-settings-save {
+			display: none;
+		}
+.form-check.checkbox-rounded.checkbox-success-filled {
+    margin-bottom: 2%;
+}
+
+input#gform-settings {
+    margin-top: 15%;
+	margin-bottom: 10%;
+}
+
+.error.notice {
+    margin-left: 0% !important;
+    margin-top: 3%;
+}
+
+.error.notice h5{
+   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 18.7px;
+}
+
+h4#note{
+    color:black !important;
+}
+
+
+
+button#gform-settings {
+    width: 150px;
+    height: 37px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+div#vrynotokenpagelink {
+    padding: 31px !important;
+}
+
+input#gform-settings-delete {
+    margin-left: 50px;
+}
+
+
+i.fa.fa-cogs {
+    display: none;
+}
+.gaddon-section.gaddon-first-section {
+    width: 60%;
+    float: left;
+    padding: 2% 0% 2% 2%;
+    background: aliceblue;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 12px 3px;
+}
+
+.gaddon-section.gaddon-second-section {
+    width: 33%;
+    float: left;
+    padding: 2% 0% 2% 2%;
+    background: red;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px 3px;
+}
+#adminotice {
+    height: 30px;
+    line-height: 26px;
+    font-size: initial;
+    font-weight: 500;
+}
+
+input#submit_vryno_update_details {
+    width: 110px;
+}
+
+.button-update {
+    background-color: #f5b041;
+    border-radius: 3px;
+    color: #fdfefe;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: inline-block;
+    height: 30px;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.button-update-mapping{
+    background-color: #f5b041;
+    border-radius: 3px;
+    color: #fdfefe;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: inline-block;
+    height: 30px;
+    line-height: 28px;
+    width: 110px;
+    cursor: pointer;
+}
+.button-save {
+    background-color: #28a745;
+    border-radius: 3px;
+    color: #fdfefe;
+    text-align: center;
+    font-size: 14px;
+    width: 95px;
+    height: 30px;
+    border: none;
+    margin-top: 0px;
+    display: inline-block;
+    height: 30px !important;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+tr#tr-button td#td-button input {
+    width: 100%px;
+}
+h3#error{
+    color:red;
+}
+td#tigformtd {
+    width: 100%;
+}
+.form-table{
+    width: 95%;
+}
+.form-table select {
+    width: 250px;
+    margin-right: 50px;
+}
+/* Custom Modal Script */
+.modal-title {
+    margin: 0;
+    line-height: 2.428571;
+}
+td#selectinput input {
+    margin-right: 100px;
+    width: 200px;
+}
+#display_popup
+{
+ font-size:20px;
+ cursor:pointer;
+}
+#gf_popup_box
+{
+ visibility:hidden;
+ display:none;
+ width:30%;
+ background-color:#BDBDBD;
+ position:fixed;
+ left:35%;
+ top:30%;
+ border-radius:10px;
+ border:2px solid grey;
+ box-shadow:0px 0px 10px 0px grey;
+ font-family:helvetica;
+}
+#gf_popup_box #cancel_button
+{
+ float:right;
+ margin-top:4px;
+ margin-bottom:4px;
+ margin-right:5px;
+ background-color:grey;
+ border:none;
+ color:white;
+ padding:5px;
+ border-radius:1000px;
+ width:25px;
+ border:1px solid #424242;
+ box-shadow:0px 0px 10px 0px grey;
+ cursor:pointer;
+}
+#gf_popup_box #info_text
+{
+ padding:10px;
+ clear:both;
+ background-color:white;
+ color:#6E6E6E;
+}
+#gf_popup_box #close_button
+{
+ margin:0px;
+ padding:0px;
+ width:70px;
+ height:30px;
+ line-height:30px;
+ font-size:16px;
+ background-color:grey;
+ color:white;
+ border:none;
+ margin-bottom:10px;
+ border-radius:2px;
+ cursor:pointer;
+}
+
+#modaldeletemapping {
+    margin: 0px;
+    padding: 0px;
+    width: 107px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    background-color: grey;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.requiredfield {
+    width: 15%;
+    background-color: gainsboro;
+    color: red;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid cadetblue;
+    padding: 3px 0;
+    position: relative;
+    font-size: inherit;
+    font-family: monospace;
+    font-weight: 600;
+    z-index: 1;
+    box-shadow: 2px 3px cadetblue;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div#vryno_form_page {
+    width: fit-content;
+    margin-right: 5%;
+}
+
+h2#title {
+    margin-top: 5%;
+    margin-right: 6%;
+    background: aliceblue;
+    height: auto;
+    line-height: 50px;
+    padding-left: 30px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 12px 0px;
+}
+/* mapping loader css */
+
+.mappingloader,
+.mappingloader:before,
+.mappingloader:after {
+  background: cadetblue;
+  -webkit-animation: load1 1s infinite ease-in-out;
+  animation: load1 1s infinite ease-in-out;
+  width: 1em;
+  height: 4em;
+}
+.mappingloader {
+    color: cadetblue;
+    text-indent: -9999em;
+    position: fixed;
+    font-size: 12px;
+    -ms-transform: translateZ(0);
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+    top: 45%;
+    left: 50%;
+    z-index: 1;
+}
+.mappingloader:before,
+.mappingloader:after {
+  position: absolute;
+  top: 0;
+  content: '';
+}
+.mappingloader:before {
+  left: -1.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.mappingloader:after {
+  left: 1.5em;
+}
+@-webkit-keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
+@keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
+/* mapping loader css end */
+/* Custom Modal Script End */
